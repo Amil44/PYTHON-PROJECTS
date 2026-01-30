@@ -1,54 +1,3 @@
-# 🪨 Rock (Daş)
-# Scissors-u sındırır
-# Lizard-ı əzir
-# Paper-a uduzur
-# Spock-a uduzur
-
-# 📄 Paper (Kağız)
-# Rock-ı örtür
-# Spock-ı təkzib edir
-# Scissors-a uduzur
-# Lizard-a uduzur
-
-# ✂️ Scissors (Qayçı)
-# Paper-ı kəsir
-# Lizard-ın başını kəsir
-# Rock-a uduzur
-# Spock-a uduzur
-
-# 🦎 Lizard (Kərtənkələ)
-# Spock-ı zəhərləyir
-# Paper-ı yeyir
-# Rock-a uduzur
-# Scissors-a uduzur
-
-# 🖖 Spock
-# Scissors-u əzir
-# Rock-ı buxarlandırır
-# Paper-a uduzur
-# Lizard-a uduzur
-
-# Dash  kaxiz qayci oynunun yaradilmasi,
-# Sizin oynunuzda besh element olacaq   (rock, paper, scissors, lizard, spock)
-# oyun zonsuz  dovur daxilinde olmalidir program bashladiqda ilk evvel   oyuncuya secim teklif edilir
-# 	[y] -- new game
-# 	[e] -- exit
-# y - secildikde yeni oyun bashlayil ve oyunumuz 3 rounddan ibaret olmalidir, 
-# oyunun gorunuzunde ekrana hazirda hansi round olduqunu cap edin,  
-# ekrana hazirda hansi round olduqu sixdiqdan sonra istifadeciden 5 elementden birini secmeyini isteyirik
-    # [r] -- rock
-    # [s] -- sicissors
-    # [k] -- spoke
-    # [l] -- lizard
-    # [p] -- paper
-# kodunuzu ele qurunki istifadeci bu besh elementden bashqa bir shey secerse ekrana secim yanlishdircixsin
-# ve yeniden secim etmeli olsun,
-# PLAYER secim etdikden PLAYER_2  secim etmelidir ve daha  sonra hem PLAYERIN 
-# hemde PLAYER_2_NIN secimlerini ekrana cap etmek lazimdir
-# oyununuzu ele programlashdirinki PLAYER_2_NIN ve playerin secimlerine gore 
-# her roundu kimin uddugu bilinsin ve udanin scoreu 1 xal artsin
-# 3 - roundun sonunda umumi netice ortaya cixmalidir oyunun qalibi
-
 import random
 
 print('[y] -- new game\n\
@@ -208,34 +157,39 @@ while True:
             break
 
         case 'a':
-            print('\n🪨 Rock (Daş)\n\
-Scissors-u sındırır\n\
-Lizard-ı əzir\n\
-Paper-a uduzur\n\
-Spock-a uduzur\n\n\
-📄 Paper (Kağız)\n\
-Rock-ı örtür\n\
-Spock-ı təkzib edir\n\
-Scissors-a uduzur\n\
-Lizard-a uduzur\n\n\
-✂️ Scissors (Qayçı)\n\
-Paper-ı kəsir\n\
-Lizard-ın başını kəsir\n\
-Rock-a uduzur\n\
-Spock-a uduzur\n\n\
-🦎 Lizard (Kərtənkələ)\n\
-Spock-ı zəhərləyir\n\
-Paper-ı yeyir\n\
-Rock-a uduzur\n\
-Scissors-a uduzur\n\n\
-🖖 Spock\n\
-Scissors-u əzir\n\
-Rock-ı buxarlandırır\n\
-Paper-a uduzur\n\
-Lizard-a uduzur\n')
+            print('''🪨 Rock (Daş)
+Breaks Scissors
+Crushes Lizard
+Loses to Paper
+Loses to Spock
+
+📄 Paper (Kağız)
+Covers Rock
+Disproves Spock
+Loses to Scissors
+Loses to Lizard
+
+✂️ Scissors (Qayçı)
+Cuts Paper
+Decapitates Lizard
+Loses to Rock
+Loses to Spock
+
+🦎 Lizard (Kərtənkələ)
+Poisons Spock
+Eats Paper
+Loses to Rock
+Loses to Scissors
+
+🖖 Spock
+Crushes Scissors
+Vaporizes Rock
+Loses to Paper
+Loses to Lizard''')
 
         case _:
             print('Select Correct Operation!')
+
 
 
 
